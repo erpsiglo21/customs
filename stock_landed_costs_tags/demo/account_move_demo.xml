@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tag_din1" model="account.analytic.tag">
+        <field name="name">DIN1</field>
+    </record>
+</odoo>
