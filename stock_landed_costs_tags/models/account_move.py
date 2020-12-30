@@ -24,6 +24,6 @@ class AccountMoveLine(models.Model):
     @api.onchange('product_id')
     def _onchange_product_id(self):
         """Assigns the analytic tag to each invoice line."""
-        if self.invoice_id.analytic_tag_ids:
-            self.analytic_tag_ids = self.invoice_id.analytic_tag_ids.ids
+        if self.move_id.analytic_tag_ids:
+            self.analytic_tag_ids = self.move_id.analytic_tag_ids.ids
         return super(AccountMoveLine, self)._onchange_product_id()
