@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0+e\n"
+"Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:16+0000\n"
 "PO-Revision-Date: 2019-06-11 20:16+0000\n"
@@ -46,12 +46,12 @@ msgid "Generate"
 msgstr "Generar"
 
 #. module: stock_landed_costs_tags
-#: model:ir.model,name:stock_landed_costs_tags.model_account_invoice
+#: model:ir.model,name:stock_landed_costs_tags.model_account_move
 msgid "Invoice"
 msgstr "Factura"
 
 #. module: stock_landed_costs_tags
-#: model:ir.model,name:stock_landed_costs_tags.model_account_invoice_line
+#: model:ir.model,name:stock_landed_costs_tags.model_account_move_line
 msgid "Invoice Line"
 msgstr "Linea de Factura"
 

@@ -6,6 +6,9 @@
     'author': 'ERP Siglo 21',
     'category': 'Warehouse',
     'license': 'AGPL-3',
+    'depends': [
+        'stock_landed_costs'
+    ],
     'data': [
         'data/res_config.xml',
         'data/res_users_data.xml',
